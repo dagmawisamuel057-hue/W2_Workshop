@@ -1,0 +1,20 @@
+For Lana’s dog-walking business, our group identified four main entities: Customers, Pets, Walkers, and Walks.
+
+Customers stores owner information such as customer ID, first name, last name, phone, email, and address.
+
+Pets stores information about each dog, including pet ID, customer ID, pet name, breed, age, and notes. This table connects each pet to its owner.
+
+Walkers stores staff information, including walker ID, walker name, phone, and email.
+
+Walks stores each dog-walking appointment, including walk ID, pet ID, walker ID, walk date, walk time, duration, status, and payment amount.
+
+Relationships
+
+One customer can have many pets.
+One pet can have many walks.
+One walker can complete many walks.
+Each walk is linked to one pet and one walker.
+
+This structure reduces duplicate data and makes it easier to track customers, dogs, employees, and appointments.
+
+
